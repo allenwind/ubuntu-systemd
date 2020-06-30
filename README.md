@@ -1,7 +1,5 @@
 # ubuntu-systemd
 
-支持 systemd 的 Ubunutu 镜像
-
 build image:
 
 ```sh
@@ -19,3 +17,6 @@ exec:
 ```sh
 docker exec -it ${container_id} bash
 ```
+
+可以作为基础镜像构建依赖 systemd 的应用。
+
